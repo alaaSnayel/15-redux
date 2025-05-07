@@ -2,7 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import "./store";
+import store from "./store";
+import { deposit } from "./featurer/accounts/accountSlice";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
