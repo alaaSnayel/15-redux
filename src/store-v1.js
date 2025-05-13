@@ -1,3 +1,5 @@
+// Store without Redux Toolkit and Slices
+
 import { combineReducers, createStore } from "redux";
 
 const initialStateAccount = {
